@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: A Hugo website
+title: Brady Johnston
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -17,13 +17,15 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      url: https://github.com/bradyajohnston
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://twitter.com/bradyajohnston
+    - name: YouTube
+      url: https://youtube.com/c/bradyjohnston
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
+  description: Brady Johnston's Personal Website.
   favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
