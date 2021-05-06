@@ -1,0 +1,49 @@
+---
+title: brrr
+author: Brady Johnston
+date: '2021-05-01'
+slug: brrr
+categories: []
+tags: []
+---
+
+# Some code goes here
+```{r , eval=FALSE}
+for (i in 1:10) 
+  print("Hello world!")
+end 
+```
+
+
+# Protein Motor Goes _Brrrr_
+
+<div style='position:relative; padding-bottom:56.25%;'><iframe src='https://gfycat.com/ifr/jointslimyaidi' frameborder='0' scrolling='no' width='40%' height='100%' style='position:absolute;top:0;left:0;float:right' allowfullscreen></iframe></div>
+
+Some additional text here
+
+to clash with 
+
+```{r}
+# That's a real shame.
+print("Sad!")
+```
+
+Can I reference the plot \@ref(fig:aplot) which is right below?
+
+```{r aplot, fig.cap="Wow, just look at that plot!", fig.align='center'}
+library(ggplot2)
+p <- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl))) + 
+  geom_point() + 
+  theme_classic() + 
+  labs(title = "A Simple plot", 
+       x = "Miles Per Gallon", 
+       y = "Number of Cylinders")
+
+p
+```
+
+
+```{r bplot, fig.cap="Wow, now this plot is interactive!", fig.align='center'}
+plotly::ggplotly(p)
+```
+
