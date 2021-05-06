@@ -1,0 +1,24 @@
+---
+title: About
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(message = FALSE, 
+                      warning = FALSE, 
+                      error = FALSE)
+```
+This is now my about page! 
+
+
+## What is out here? 
+
+The whole internet, waiting to be explored!
+
+In the mean time, enjoy this protein that I work on.
+
+```{r}
+
+r3dmol::m_glimpse("4ozs", spin = TRUE)
+
+```
+

@@ -6,7 +6,38 @@
     <description>Recent content in Posts on Brady Johnston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brrr</title>
+      <link>/2021/05/01/brrr/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/05/01/brrr/</guid>
+      <description>Some code goes herefor (i in 1:10) print(&amp;quot;Hello world!&amp;quot;)end Protein Motor Goes BrrrrSome additional text here
+to clash with
+# That&amp;#39;s a real shame.print(&amp;quot;Sad!&amp;quot;)## [1] &amp;quot;Sad!&amp;quot;Can I reference the plot 1 which is right below?
+library(ggplot2)p &amp;lt;- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl))) + geom_point() + theme_classic() + labs(title = &amp;quot;A Simple plot&amp;quot;, x = &amp;quot;Miles Per Gallon&amp;quot;, y = &amp;quot;Number of Cylinders&amp;quot;)pFigure 1: Wow, just look at that plot!</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>/2021/04/28/new-post/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/28/new-post/</guid>
+      <description>Testing the waters!What do these posts look like? Can you see figure 1?
+library(tidyverse)plot &amp;lt;- mtcars %&amp;gt;% ggplot() +aes(x = cyl,y = mpg, colour = as.factor(carb)) +geom_point() + theme_classic() + labs(x = &amp;quot;Cylinder&amp;quot;, y = &amp;quot;Milse Per Gallon&amp;quot;, title = &amp;quot;Test Plot&amp;quot;, colour = &amp;quot;Carb&amp;quot;) + theme(legend.position = &amp;quot;bottom&amp;quot;)plotly::ggplotly(plot) %&amp;gt;% plotly::layout(legend = list(orientation = &amp;quot;h&amp;quot;, x = 0.</description>
+    </item>
+    
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>/2021/04/28/migrating-to-hugo/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/04/28/migrating-to-hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
