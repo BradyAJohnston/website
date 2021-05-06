@@ -17,8 +17,15 @@ The whole internet, waiting to be explored!
 In the mean time, enjoy this protein that I work on.
 
 ```{r}
+library(r3dmol)
+m1 <- m_glimpse("4ozs", spin = TRUE)
 
-r3dmol::m_glimpse("4ozs", spin = TRUE)
+m2 <- m1 %>% 
+  m_set_style(m_style_line(hidden = TRUE)) %>% 
+  m_add_surface(type = "MS")
+
+
+m_grid(list(m1, m2), rows = 1)
 
 ```
 

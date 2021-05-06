@@ -60,30 +60,24 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>/testing/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/testing/</guid>
-      <description>This is a “hello world” example website for the blogdown package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
       <title>Lorem Ipsum</title>
       <link>/2015/01/01/lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
       <guid>/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is now my about page!
+What is out here?The whole internet, waiting to be explored!
+In the mean time, enjoy this protein that I work on.
+r3dmol::m_glimpse(&amp;quot;4ozs&amp;quot;, spin = TRUE){&#34;x&#34;:{&#34;id&#34;:&#34;e9dab213cfa151bc0e9c&#34;,&#34;configs&#34;:{&#34;nomouse&#34;:false,&#34;backgroundColor&#34;:&#34;white&#34;,&#34;cartoonQuality&#34;:10,&#34;lowerZoomLimit&#34;:5,&#34;upperZoomLimit&#34;:400,&#34;antialias&#34;:true,&#34;orthographic&#34;:false,&#34;disableFog&#34;:false},&#34;api&#34;:[{&#34;method&#34;:&#34;addModels&#34;,&#34;data&#34;:&#34;HEADER RNA BINDING PROTEIN 18-FEB-14 4OZS \nTITLE RNA BINDING PROTEIN \nCOMPND MOL_ID: 1; \nCOMPND 2 MOLECULE: ALPHA SOLENOID PROTEIN; \nCOMPND 3 CHAIN: A; \nCOMPND 4 ENGINEERED: YES \nSOURCE MOL_ID: 1; \nSOURCE 2 ORGANISM_SCIENTIFIC: ARTIFICIAL GENE; \nSOURCE 3 ORGANISM_TAXID: 32630; \nSOURCE 4 EXPRESSION_SYSTEM: ESCHERICHIA COLI; \nSOURCE 5 EXPRESSION_SYSTEM_TAXID: 562 \nKEYWDS RNA, SPECIFICITY, RNA BINDING PROTEIN \nEXPDTA X-RAY DIFFRACTION \nAUTHOR B.</description>
     </item>
     
   </channel>
