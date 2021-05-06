@@ -1,0 +1,56 @@
+---
+title: Hello World!
+author: 'Brady JOhnston'
+date: '2021-04-28'
+slug: new-post
+categories: []
+tags:
+  - R
+  - rmarkdown
+  - hugo
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(message = FALSE, 
+                      warning = FALSE, 
+                      error = FALSE)
+```
+
+## Testing the waters! 
+
+What do these posts look like? Can you see figure \@ref(fig:carplot)?
+
+```{r carplot, fig.cap="A Simple Plot", fig.align='center'}
+library(tidyverse)
+
+plot <- mtcars %>% 
+  ggplot() +
+  aes(
+    x = cyl,
+    y = mpg, 
+    colour = as.factor(carb)
+    ) +
+  geom_point() + 
+  theme_classic() + 
+  labs(x = "Cylinder", 
+       y = "Milse Per Gallon", 
+       title = "Test Plot", 
+       colour = "Carb") + 
+  theme(legend.position = "bottom")
+
+plotly::ggplotly(plot) %>% 
+  plotly::layout(legend = list(orientation = "h", 
+                               x = 0.25, y = -0.2)) %>% 
+  plotly::
+
+```
+## What about embedding a cool structure?
+
+Below should be the protein that I have been working on!
+```{r}
+library(r3dmol)
+
+"4ozs" %>% 
+  m_glimpse()
+```
+
