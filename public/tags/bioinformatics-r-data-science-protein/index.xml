@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bioinformatics, R, data science, protein on Brady Johnston</title>
+    <link>/tags/bioinformatics-r-data-science-protein/</link>
+    <description>Recent content in bioinformatics, R, data science, protein on Brady Johnston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/bioinformatics-r-data-science-protein/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interactively Visualising Proteins</title>
+      <link>/2021/02/15/interactively-visualising-proteins/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/02/15/interactively-visualising-proteins/</guid>
+      <description>Visualising Proteins Recently I&amp;rsquo;ve been doing a lot of structural bioinformatics. To avoid having to export my results into PyMol of Chimerax, I wanted a better solution that could embed the results more easily into the report that I was writing.
+What would be even better than just an image of the final result is a fully interactive 3D model of the protein I was analysing at the time. Packages to achieve a similar sort of impact were already available in the form of 3Dmol.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -29,6 +29,18 @@
     <loc>/tags/</loc>
     <lastmod>2021-04-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/bioinformatics-r-data-science-protein/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2021/02/15/interactively-visualising-proteins/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tidytuesday-r-data-science/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2021/02/01/visualising-global-rubbish/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
@@ -47,6 +59,18 @@
     <loc>/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
+    <loc>/2020/07/07/r-for-biologists/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/r-coding/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/blender-structural-biology/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2020/06/18/visualising-a-virus/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url><url>
@@ -54,5 +78,29 @@
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url><url>
     <loc>/about/</loc>
+  </url><url>
+    <loc>/1/01/01/becoming-one-with-the-etc./</loc>
+  </url><url>
+    <loc>/1/01/01/blender-for-biochemists./</loc>
+  </url><url>
+    <loc>/tags/blender-animation-nodes/</loc>
+  </url><url>
+    <loc>/tags/blender-scivis-sciart-youtube/</loc>
+  </url><url>
+    <loc>/tags/blender-sparkar-ar-atp-filter/</loc>
+  </url><url>
+    <loc>/1/01/01/gfp-as-a-hat/</loc>
+  </url><url>
+    <loc>/tags/gfp-filter-ar-arkit/</loc>
+  </url><url>
+    <loc>/1/01/01/praise-for-pdb-tools/</loc>
+  </url><url>
+    <loc>/tags/python-structural-biology-bash/</loc>
+  </url><url>
+    <loc>/1/01/01/rendering-around-crashes-with-animation-nodes./</loc>
+  </url><url>
+    <loc>/tags/rshiny-r/</loc>
+  </url><url>
+    <loc>/1/01/01/testing-out-rshiny-app./</loc>
   </url>
 </urlset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R, coding on Brady Johnston</title>
+    <link>/tags/r-coding/</link>
+    <description>Recent content in R, coding on Brady Johnston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/r-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R for Biologists</title>
+      <link>/2020/07/07/r-for-biologists/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/07/r-for-biologists/</guid>
+      <description>A couple of months ago I ran (with lots of help for content) an R for biologists workshop.
+It was aimed at wet lab biologists and biochemists who hadn&amp;rsquo;t done much coding before. R is a fantastic language for doing statistical analysis, making beautiful graphics and visualising very complex datasets. I highly recommend it. A lot of people say the syntax is quirky (it is) but once you get the hang of it, you won&amp;rsquo;t regret.</description>
+    </item>
+    
+  </channel>
+</rss>

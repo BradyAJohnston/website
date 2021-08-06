@@ -35,6 +35,24 @@
     </item>
     
     <item>
+      <title>bioinformatics, R, data science, protein</title>
+      <link>/tags/bioinformatics-r-data-science-protein/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bioinformatics-r-data-science-protein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidytuesday, R, data science</title>
+      <link>/tags/tidytuesday-r-data-science/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidytuesday-r-data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>plot</title>
       <link>/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
@@ -58,6 +76,78 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R, coding</title>
+      <link>/tags/r-coding/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender, structural biology</title>
+      <link>/tags/blender-structural-biology/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blender-structural-biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender, animation nodes</title>
+      <link>/tags/blender-animation-nodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blender-animation-nodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender, scivis, sciart, youtube</title>
+      <link>/tags/blender-scivis-sciart-youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blender-scivis-sciart-youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender, sparkAR, AR, ATP, filter</title>
+      <link>/tags/blender-sparkar-ar-atp-filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blender-sparkar-ar-atp-filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GFP, filter, AR, ARkit</title>
+      <link>/tags/gfp-filter-ar-arkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gfp-filter-ar-arkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python, structural biology, bash</title>
+      <link>/tags/python-structural-biology-bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python-structural-biology-bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rshiny, R</title>
+      <link>/tags/rshiny-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rshiny-r/</guid>
       <description></description>
     </item>
     

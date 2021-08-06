@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blender, structural biology on Brady Johnston</title>
+    <link>/tags/blender-structural-biology/</link>
+    <description>Recent content in blender, structural biology on Brady Johnston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blender-structural-biology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualising a Virus</title>
+      <link>/2020/06/18/visualising-a-virus/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/18/visualising-a-virus/</guid>
+      <description>Updated my render of COVID-19 with some dynamics, virion is now to scale, additional surface proteins and some really nice lipid models thanks to @JackScienceWalk . This took 12 hours to render on my computer so hopefully the compression is&amp;#39;t too harsh #b3d pic.twitter.com/8xn8pGE6Y3
+&amp;mdash; Brady Johnston (@bradyajohnston) March 18, 2020  </description>
+    </item>
+    
+  </channel>
+</rss>

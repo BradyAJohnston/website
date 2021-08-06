@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.82.1" />
+
+
+<title>Praise for pdb-tools - Swiss army knife for molecular structures.  - Brady Johnston</title>
+<meta property="og:title" content="Praise for pdb-tools - Brady Johnston">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/headshot.png"
+         width="100"
+         height="100"
+         alt="Headshot">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/">Blog</a></li>
+    
+    <li><a href="https://github.com/bradyajohnston">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/bradyajohnston">Twitter</a></li>
+    
+    <li><a href="https://youtube.com/c/bradyjohnston">YouTube</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Praise for pdb-tools</h1>
+
+    
+    <span class="article-date">0001-01-01</span>
+    
+
+    <div class="article-content">
+      <h1 id="i-just-want-to-change-one-column">I just want to change one column.</h1>
+<p>An output from some MD work left me with a .pdb file with 0 <em>b-factors</em>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brady@bmac <span style="color:#ae81ff">1</span> % tail modifed.pdb
+ATOM   <span style="color:#ae81ff">9670</span>  CB  ALA   <span style="color:#ae81ff">609</span>     139.230  39.040  82.350  1.00  0.00
+ATOM   <span style="color:#ae81ff">9674</span>  C   ALA   <span style="color:#ae81ff">609</span>     141.480  39.340  81.290  1.00  0.00
+ATOM   <span style="color:#ae81ff">9675</span>  O   ALA   <span style="color:#ae81ff">609</span>     142.160  39.960  82.160  1.00  0.00
+ATOM   <span style="color:#ae81ff">9676</span>  N   GLY   <span style="color:#ae81ff">610</span>     142.090  38.490  80.480  1.00  0.00
+ATOM   <span style="color:#ae81ff">9678</span>  CA  GLY   <span style="color:#ae81ff">610</span>     143.490  38.100  80.430  1.00  0.00
+ATOM   <span style="color:#ae81ff">9681</span>  C   GLY   <span style="color:#ae81ff">610</span>     144.370  38.940  79.520  1.00  0.00
+ATOM   <span style="color:#ae81ff">9682</span>  O   GLY   <span style="color:#ae81ff">610</span>     144.650  40.130  79.960  1.00  0.00
+ATOM   <span style="color:#ae81ff">9683</span>  OXT GLY   <span style="color:#ae81ff">610</span>     145.010  38.410  78.550  1.00  0.00
+TER
+ENDMDL
+</code></pre></div><p>All I wanted was to quickly change them all to 1.00, so that I could move on to the next stage.</p>
+<h2 id="pdb-tools-to-the-rescue"><code>pdb-tools</code> to the rescue</h2>
+<p>A collection of simple scripts, written in python and available through the command line. Look at the full documentation <a href="http://www.bonvinlab.org/pdb-tools/#list-of-tools">here</a>.</p>
+<p>The solution was fairly simple:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pdb_b -1.00 PPR_path_heavy.pdb &gt; modified.pdb
+</code></pre></div><p>Which gave the result:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brady@bmac <span style="color:#ae81ff">1</span> % tail modified.pdb
+ATOM   <span style="color:#ae81ff">9670</span>  CB  ALA   <span style="color:#ae81ff">609</span>     139.230  39.040  82.350  1.00  1.00
+ATOM   <span style="color:#ae81ff">9674</span>  C   ALA   <span style="color:#ae81ff">609</span>     141.480  39.340  81.290  1.00  1.00
+ATOM   <span style="color:#ae81ff">9675</span>  O   ALA   <span style="color:#ae81ff">609</span>     142.160  39.960  82.160  1.00  1.00
+ATOM   <span style="color:#ae81ff">9676</span>  N   GLY   <span style="color:#ae81ff">610</span>     142.090  38.490  80.480  1.00  1.00
+ATOM   <span style="color:#ae81ff">9678</span>  CA  GLY   <span style="color:#ae81ff">610</span>     143.490  38.100  80.430  1.00  1.00
+ATOM   <span style="color:#ae81ff">9681</span>  C   GLY   <span style="color:#ae81ff">610</span>     144.370  38.940  79.520  1.00  1.00
+ATOM   <span style="color:#ae81ff">9682</span>  O   GLY   <span style="color:#ae81ff">610</span>     144.650  40.130  79.960  1.00  1.00
+ATOM   <span style="color:#ae81ff">9683</span>  OXT GLY   <span style="color:#ae81ff">610</span>     145.010  38.410  78.550  1.00  1.00
+TER
+ENDMDL
+</code></pre></div><p>And that was it! easy done. Will definitely be using these a lot more in the future.</p>
+<p>Thanks so much to the team behind it <a href="https://www.biorxiv.org/content/10.1101/483305v1.article-info">Rodrigues, J. P. G. L. M., Teixeira, J. M. C., Trellet, M. &amp; Bonvin, A. M. J. J.</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

@@ -13,10 +13,10 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/2021/05/01/brrr/</guid>
-      <description>Some code goes herefor (i in 1:10) print(&amp;quot;Hello world!&amp;quot;)end Protein Motor Goes BrrrrSome additional text here
+      <description>Some code goes here for (i in 1:10) print(&amp;quot;Hello world!&amp;quot;) end   Protein Motor Goes Brrrr   Some additional text here
 to clash with
-# That&amp;#39;s a real shame.print(&amp;quot;Sad!&amp;quot;)## [1] &amp;quot;Sad!&amp;quot;Can I reference the plot 1 which is right below?
-library(ggplot2)p &amp;lt;- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl))) + geom_point() + theme_classic() + labs(title = &amp;quot;A Simple plot&amp;quot;, x = &amp;quot;Miles Per Gallon&amp;quot;, y = &amp;quot;Number of Cylinders&amp;quot;)pFigure 1: Wow, just look at that plot!</description>
+# That&amp;#39;s a real shame. print(&amp;quot;Sad!&amp;quot;) ## [1] &amp;quot;Sad!&amp;quot; Can I reference the plot 1 which is right below?
+library(ggplot2) p &amp;lt;- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl))) + geom_point() + theme_classic() + labs(title = &amp;quot;A Simple plot&amp;quot;, x = &amp;quot;Miles Per Gallon&amp;quot;, y = &amp;quot;Number of Cylinders&amp;quot;) p  Figure 1: Wow, just look at that plot!</description>
     </item>
     
     <item>
@@ -25,8 +25,8 @@ library(ggplot2)p &amp;lt;- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/2021/04/28/new-post/</guid>
-      <description>Testing the waters!What do these posts look like? Can you see figure 1?
-library(tidyverse)plot &amp;lt;- mtcars %&amp;gt;% ggplot() +aes(x = cyl,y = mpg, colour = as.factor(carb)) +geom_point() + theme_classic() + labs(x = &amp;quot;Cylinder&amp;quot;, y = &amp;quot;Milse Per Gallon&amp;quot;, title = &amp;quot;Test Plot&amp;quot;, colour = &amp;quot;Carb&amp;quot;) + theme(legend.position = &amp;quot;bottom&amp;quot;)plotly::ggplotly(plot) %&amp;gt;% plotly::layout(legend = list(orientation = &amp;quot;h&amp;quot;, x = 0.</description>
+      <description>Testing the waters! What do these posts look like? Can you see figure 1?
+library(tidyverse) plot &amp;lt;- mtcars %&amp;gt;% ggplot() + aes( x = cyl, y = mpg, colour = as.factor(carb) ) + geom_point() + theme_classic() + labs(x = &amp;quot;Cylinder&amp;quot;, y = &amp;quot;Milse Per Gallon&amp;quot;, title = &amp;quot;Test Plot&amp;quot;, colour = &amp;quot;Carb&amp;quot;) + theme(legend.position = &amp;quot;bottom&amp;quot;) plotly::ggplotly(plot) %&amp;gt;% plotly::layout(legend = list(orientation = &amp;quot;h&amp;quot;, x = 0.</description>
     </item>
     
     <item>
@@ -39,6 +39,27 @@ library(tidyverse)plot &amp;lt;- mtcars %&amp;gt;% ggplot() +aes(x = cyl,y =
     </item>
     
     <item>
+      <title>Interactively Visualising Proteins</title>
+      <link>/2021/02/15/interactively-visualising-proteins/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/02/15/interactively-visualising-proteins/</guid>
+      <description>Visualising Proteins Recently I&amp;rsquo;ve been doing a lot of structural bioinformatics. To avoid having to export my results into PyMol of Chimerax, I wanted a better solution that could embed the results more easily into the report that I was writing.
+What would be even better than just an image of the final result is a fully interactive 3D model of the protein I was analysing at the time. Packages to achieve a similar sort of impact were already available in the form of 3Dmol.</description>
+    </item>
+    
+    <item>
+      <title>Visualising Global Rubbish</title>
+      <link>/2021/02/01/visualising-global-rubbish/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/02/01/visualising-global-rubbish/</guid>
+      <description>Where Rubbish Ends Up For this week&amp;rsquo;s #tidytuesday, I visualise the vast dataset of rubbish collected on the beaches all over the world.
+I will leave out the technical details (check the tweet / Rpubs post for code) of how I achieved this, but you can see the result in the tweet below.
+The data shows the headquarters for each company identified, and the lines show where the trash ended up.</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
@@ -47,6 +68,26 @@ library(tidyverse)plot &amp;lt;- mtcars %&amp;gt;% ggplot() +aes(x = cyl,y =
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>R for Biologists</title>
+      <link>/2020/07/07/r-for-biologists/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/07/r-for-biologists/</guid>
+      <description>A couple of months ago I ran (with lots of help for content) an R for biologists workshop.
+It was aimed at wet lab biologists and biochemists who hadn&amp;rsquo;t done much coding before. R is a fantastic language for doing statistical analysis, making beautiful graphics and visualising very complex datasets. I highly recommend it. A lot of people say the syntax is quirky (it is) but once you get the hang of it, you won&amp;rsquo;t regret.</description>
+    </item>
+    
+    <item>
+      <title>Visualising a Virus</title>
+      <link>/2020/06/18/visualising-a-virus/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/18/visualising-a-virus/</guid>
+      <description>Updated my render of COVID-19 with some dynamics, virion is now to scale, additional surface proteins and some really nice lipid models thanks to @JackScienceWalk . This took 12 hours to render on my computer so hopefully the compression is&amp;#39;t too harsh #b3d pic.twitter.com/8xn8pGE6Y3
+&amp;mdash; Brady Johnston (@bradyajohnston) March 18, 2020  </description>
     </item>
     
     <item>
@@ -75,9 +116,73 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/about/</guid>
       <description>This is now my about page!
-What is out here?The whole internet, waiting to be explored!
+What is out here? The whole internet, waiting to be explored!
 In the mean time, enjoy this protein that I work on.
-r3dmol::m_glimpse(&amp;quot;4ozs&amp;quot;, spin = TRUE){&#34;x&#34;:{&#34;id&#34;:&#34;e9dab213cfa151bc0e9c&#34;,&#34;configs&#34;:{&#34;nomouse&#34;:false,&#34;backgroundColor&#34;:&#34;white&#34;,&#34;cartoonQuality&#34;:10,&#34;lowerZoomLimit&#34;:5,&#34;upperZoomLimit&#34;:400,&#34;antialias&#34;:true,&#34;orthographic&#34;:false,&#34;disableFog&#34;:false},&#34;api&#34;:[{&#34;method&#34;:&#34;addModels&#34;,&#34;data&#34;:&#34;HEADER RNA BINDING PROTEIN 18-FEB-14 4OZS \nTITLE RNA BINDING PROTEIN \nCOMPND MOL_ID: 1; \nCOMPND 2 MOLECULE: ALPHA SOLENOID PROTEIN; \nCOMPND 3 CHAIN: A; \nCOMPND 4 ENGINEERED: YES \nSOURCE MOL_ID: 1; \nSOURCE 2 ORGANISM_SCIENTIFIC: ARTIFICIAL GENE; \nSOURCE 3 ORGANISM_TAXID: 32630; \nSOURCE 4 EXPRESSION_SYSTEM: ESCHERICHIA COLI; \nSOURCE 5 EXPRESSION_SYSTEM_TAXID: 562 \nKEYWDS RNA, SPECIFICITY, RNA BINDING PROTEIN \nEXPDTA X-RAY DIFFRACTION \nAUTHOR B.</description>
+library(r3dmol) m1 &amp;lt;- m_glimpse(&amp;quot;4ozs&amp;quot;, spin = TRUE) m2 &amp;lt;- m1 %&amp;gt;% m_set_style(m_style_line(hidden = TRUE)) %&amp;gt;% m_add_surface(type = &amp;quot;MS&amp;quot;) m_grid(list(m1, m2), rows = 1)  {&#34;x&#34;:{&#34;viewer&#34;:[{&#34;x&#34;:{&#34;id&#34;:&#34;89ee969a63c0b787b6ce&#34;,&#34;configs&#34;:{&#34;nomouse&#34;:false,&#34;backgroundColor&#34;:&#34;white&#34;,&#34;cartoonQuality&#34;:10,&#34;lowerZoomLimit&#34;:5,&#34;upperZoomLimit&#34;:400,&#34;antialias&#34;:true,&#34;orthographic&#34;:false,&#34;disableFog&#34;:false},&#34;api&#34;:[{&#34;method&#34;:&#34;addModels&#34;,&#34;data&#34;:&#34;HEADER RNA BINDING PROTEIN 18-FEB-14 4OZS \nTITLE RNA BINDING PROTEIN \nCOMPND MOL_ID: 1; \nCOMPND 2 MOLECULE: ALPHA SOLENOID PROTEIN; \nCOMPND 3 CHAIN: A; \nCOMPND 4 ENGINEERED: YES \nSOURCE MOL_ID: 1; \nSOURCE 2 ORGANISM_SCIENTIFIC: ARTIFICIAL GENE; \nSOURCE 3 ORGANISM_TAXID: 32630; \nSOURCE 4 EXPRESSION_SYSTEM: ESCHERICHIA COLI; \nSOURCE 5 EXPRESSION_SYSTEM_TAXID: 562 \nKEYWDS RNA, SPECIFICITY, RNA BINDING PROTEIN \nEXPDTA X-RAY DIFFRACTION \nAUTHOR B.</description>
+    </item>
+    
+    <item>
+      <title>Becoming one with the ETC.</title>
+      <link>/1/01/01/becoming-one-with-the-etc./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/becoming-one-with-the-etc./</guid>
+      <description>We need ChimeraX Recently a popular hashtag in the structural biology community went around of #weneedchimeraX which to be clear, we definitely do.
+Funding was not looking good for the team was that was behind the incredibly powerful and importantly free tool ChimeraX. This also marked the start of the ChimeraX team&amp;rsquo;s journey into science twitter. One of their early tweets showed off the ability to generate a very cool animation using the morph functionalities and some nice graphical rendering.</description>
+    </item>
+    
+    <item>
+      <title>Blender for Biochemists.</title>
+      <link>/1/01/01/blender-for-biochemists./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/blender-for-biochemists./</guid>
+      <description>I&amp;rsquo;ve started my journey into the realm of youtube.
+After promising people at multiple conferences that I might start doing some tutorials on how to get into the very exciting if very intimidating world of 3D modelling, I&amp;rsquo;ve finally made the plung.
+Maybe one day in a far off land (likely while I procrastinate writing my thesis) I will also write up accompanying documentation for how to achieve various looks and techniques (and some standards for importing / exporting 3D models).</description>
+    </item>
+    
+    <item>
+      <title>GFP As a Hat</title>
+      <link>/1/01/01/gfp-as-a-hat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/gfp-as-a-hat/</guid>
+      <description>As I was drifting off to sleep one night, the thought hit me:
+ &amp;ldquo;People love face filters, people love GFP, what if we combined the two?&amp;rdquo;
+My brain, late at night.
+ The next morning I had a quick look around and wasn’t able to find any evidence of anyone doing anything before. There has been a bit of effort into making AR protein apps and experiences, but we have all of these 3D models from all of the structural information that biology gathers, but nobody has put it into an instagram filter yet?</description>
+    </item>
+    
+    <item>
+      <title>Praise for pdb-tools</title>
+      <link>/1/01/01/praise-for-pdb-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/praise-for-pdb-tools/</guid>
+      <description>I just want to change one column. An output from some MD work left me with a .pdb file with 0 b-factors.
+brady@bmac 1 % tail modifed.pdb ATOM 9670 CB ALA 609 139.230 39.040 82.350 1.00 0.00 ATOM 9674 C ALA 609 141.480 39.340 81.290 1.00 0.00 ATOM 9675 O ALA 609 142.160 39.960 82.160 1.00 0.00 ATOM 9676 N GLY 610 142.090 38.490 80.480 1.00 0.00 ATOM 9678 CA GLY 610 143.</description>
+    </item>
+    
+    <item>
+      <title>Rendering around crashes with Animation Nodes.</title>
+      <link>/1/01/01/rendering-around-crashes-with-animation-nodes./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/rendering-around-crashes-with-animation-nodes./</guid>
+      <description>Working around the crashes Some pixel art of the results.
+Wanting to test out a nucleic-acid generator I created in Animation nodes, I spent a bit of time putting together a test scene (bacterial RNA polymerase synthesising some RNA from DNA template).
+Having set up a scene, done the math and gotten things working I was ready to try out rendering the scene. Unfortunately there are a few problems with rendering using Animation Nodes, and after rendering 1-3 frames Blender would crash.</description>
+    </item>
+    
+    <item>
+      <title>Testing out Rshiny app.</title>
+      <link>/1/01/01/testing-out-rshiny-app./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/testing-out-rshiny-app./</guid>
+      <description>Below will hopefully be an app. Maybe?
+ Shiny App Iframe     </description>
     </item>
     
   </channel>

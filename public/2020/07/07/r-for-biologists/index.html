@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.82.1" />
+
+
+<title>R for Biologists - Getting around the excellent programming language R.  - Brady Johnston</title>
+<meta property="og:title" content="R for Biologists - Brady Johnston">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/headshot.png"
+         width="100"
+         height="100"
+         alt="Headshot">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/">Blog</a></li>
+    
+    <li><a href="https://github.com/bradyajohnston">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/bradyajohnston">Twitter</a></li>
+    
+    <li><a href="https://youtube.com/c/bradyjohnston">YouTube</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">R for Biologists</h1>
+
+    
+    <span class="article-date">2020-07-07</span>
+    
+
+    <div class="article-content">
+      <p>A couple of months ago I ran (with lots of help for content) an R for biologists workshop.</p>
+<p>It was aimed at wet lab biologists and biochemists who hadn&rsquo;t done much coding before. R is a fantastic language
+for doing statistical analysis, making <em>beautiful</em> graphics and visualising very complex datasets.
+I highly recommend it. A lot of people say the syntax is quirky (it <em>is</em>) but once you get the hang of it,
+you won&rsquo;t regret.</p>
+<p>The original working document for the tuturial was <a href="https://hackmd.io/@MHhGW58bTWa4L74DCRvYcQ/ryxemkVKI/edit">here</a>, but I thought
+I might just include all of it directly on my blog as it was all written in <code>markdown</code> anyway.</p>
+<p>Below is the contents of the workshop, along with video recordings of the sessions:</p>
+<h2 id="r-for-biologists-workshop">R for Biologists Workshop</h2>
+<p>This document will contain relevant links, information, and allow us to quickly and collaboratively share code with good formatting.</p>
+<p>Brady&rsquo;s Twitter: <a href="https://twitter.com/bradyajohnston">@bradyajohnston</a></p>
+<h4 id="zoom-info"><strong>Zoom Info</strong></h4>
+<ul>
+<li>Zoom link: <a href="https://uwa.zoom.us/j/94747101358?pwd=V0NqQ1dJaW1sU0J5ZVIyV0Rta0huQT09">https://uwa.zoom.us/j/94747101358?pwd=V0NqQ1dJaW1sU0J5ZVIyV0Rta0huQT09</a></li>
+<li>Zoom password: 546735</li>
+</ul>
+<h4 id="course-outline-and-info"><strong>Course outline and info:</strong></h4>
+<p><a href="https://plavskin.github.io/Intro_R_Course/">Web outline here</a></p>
+<p><a href="https://github.com/plavskin/Intro_R_Course">Download all files here:</a></p>
+<p><a href="https://rstudio.com/resources/cheatsheets/">Rstudio Cheat sheet</a></p>
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown cheat sheet</a></p>
+<h4 id="anonymous-feedback-form">Anonymous Feedback form:</h4>
+<p><a href="https://forms.gle/7uuEMs47SuK5Nsm56">https://forms.gle/7uuEMs47SuK5Nsm56</a></p>
+<h4 id="session-recordings">Session recordings:</h4>
+<p>If any of these don&rsquo;t work, send me an email.
+Session:</p>
+<ol>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/XgsaIikbrBmIhoy">Recording</a>, Password: 6eTQkyMH-qga</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/S6U7mTIdMajHpba">Recording</a>, Password: Vs7hmZ7qU2-Y</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/0q99qErgvjlN6Ee">Recording</a>, Password: Brp7CL+HLtRS</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/eKaeJkVcnKJCajn">Recording</a>, Password: xJpHoC!h3V2d</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/7APQ4iNzTE7VRP3">Recording</a>, Password: GaFdz4!uznE2</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/BN3ZdibDsEgihcv">Recording</a>, Password: Sf=6eALB6uMB</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/xDy2iJhGe9Blzf6">Recording</a>, Password: zdZpyda8*ctg</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/RSSWu3iXqAqsMIt">Recording</a>, Password: 7PfQkM2wU@SH</li>
+<li><a href="https://cloudstor.aarnet.edu.au/plus/s/CgnZvsXXHDcdFkT">Recording</a>: Password: -gmkneK4TnBU</li>
+</ol>
+<h3 id="introductions"><strong>Introductions:</strong></h3>
+<p>Use this space to introduce yourself! Just a brief bio about research you do, coding experience you might have etc.</p>
+<p>Hello, I&rsquo;m Soodeh</p>
+<p>Hey guys, Heidar here
+Hi I am Federica from Milan, Italy :)</p>
+<p>Hi Brady, thanks for the workshop! Kalia</p>
+<p>I am Paula (Pau VT), from Germany, but originally from Chile</p>
+<p>Hello!</p>
+<p><strong>Hello! My name is Brady, and I am from Perth, australia. It is nice to have you all here!</strong></p>
+<p>Hello Brady</p>
+<p>Hi everyone, this is Sam, I&rsquo;m from Perth WA.</p>
+<p>Hello all! I&rsquo;m Callum and I&rsquo;m from Perth Aus!</p>
+<p>Hello, my name is Ayeisha and I am also from Perth, Australia.</p>
+<p>Hello, My name is Khyati and am from India.</p>
+<p>G&rsquo;day, my name is James, currently in Perth.</p>
+<p>Hello, my name is Alessio and I am from Lombardy, Italy</p>
+<p>Hello! I&rsquo;m Jacob - from Perth, Australia.</p>
+<p>Hi I&rsquo;am Julie Mallet, from France</p>
+<p>Hi everyone, my name is Giada, I&rsquo;m from Italy!</p>
+<h2 id="class-1---r--rstudio-installation">Class 1 - R / Rstudio Installation</h2>
+<p>R version 4.0 has just been released! This is very exciting (for a number of nerdy reasons) but in this course we will be using R version 3.6.3 (you can use some version of 3.6.x) to keep things consistent with the materials.</p>
+<h4 id="installing-r-and-rstudio">Installing <code>R</code> and <code>Rstudio</code></h4>
+<p>There is a great guide on how to download and install R if you haven&rsquo;t already, than can be found <a href="https://plavskin.github.io/Intro_R_Course/Workshop_1.nb.html#downloading-installing-and-navigating-rstudio">here</a>. If you get lost try following <a href="https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu">this one</a> instead.</p>
+<p>Rstudio is not much use to you without R installed, and using R without Rstudio is a lot more effort than it is worth. Ensure that you have both installed, and that Rstudio boots up.</p>
+<h4 id="try-setting-up-your-screen-like-this-in-order-to-follow-along">Try setting up your screen like this, in order to follow along.</h4>
+<p><img src="https://i.imgur.com/P48LUXi.jpg" alt=""></p>
+<p>Downloading the R-markdown document for the first session <a href="https://www.dropbox.com/sh/etpexuvc4vpiiz9/AACtRwfd8iBDvHhq_p-CGKWza?dl=0">here</a>.</p>
+<h2 id="class-2---variables-types-and-functions">Class 2 - Variables, types and functions.</h2>
+<p><a href="https://www.dropbox.com/s/003hdg5gj29sfnp/Workshop_2.Rmd?dl=0">Download second file here.</a></p>
+<h3 id="lets-talk-about-variables-and-functions">Let&rsquo;s talk about variables and functions.</h3>
+<h2 id="class-3---intro-to-vectors">Class 3 - Intro to Vectors</h2>
+<p><a href="https://www.dropbox.com/s/gz7fh11heib933z/Workshop_3.Rmd?dl=0">Class 3 Files.</a></p>
+<p>Posting of code:</p>
+<h2 id="class-4---logical-operations">Class 4 - Logical Operations</h2>
+<p><a href="https://www.dropbox.com/s/pt63nktr3hjuk7n/Workshop_4.Rmd?dl=0">Link to files</a></p>
+<h2 id="class-5---dataframes">Class 5 - Dataframes!</h2>
+<p><a href="https://www.dropbox.com/s/vzdf4fwwrgegkhw/Workshop_5.Rmd?dl=0">Linke to files</a></p>
+<p><a href="https://www.dropbox.com/s/8t66gfyi60dc8zp/iris.csv?dl=0">Link to iris files</a></p>
+<h2 id="class-6---plotting-your-data-with-ggplot2">Class 6 - Plotting your data with ggplot2.</h2>
+<p>If you haven&rsquo;t download the files <a href="https://www.dropbox.com/s/vbqcvyv8s0x31qw/Workshop_6.Rmd?dl=0">here</a>:</p>
+<p>Let&rsquo;s start posting out plots.</p>
+<h2 id="class-7">Class 7</h2>
+<p>If you have not downloaded files, download here:</p>
+<p><a href="https://www.dropbox.com/s/swukoel23ofei09/Workshop_7.Rmd?dl=0">Here</a></p>
+<h2 id="class-8-programming-with-r--part-1">Class 8: Programming with R | Part 1</h2>
+<p>Prograaming with R.</p>
+<p>Files <a href="https://www.dropbox.com/s/lzr2mr1sq8p1vla/Workshop_8.Rmd?dl=0">here</a></p>
+<h2 id="class-9-programming-with-r--part-2">Class 9: Programming with R | Part 2</h2>
+<p>Files available <a href="https://www.dropbox.com/s/cklocisi9exkuli/Workshop_9.Rmd?dl=0">here</a>.</p>
+<p>If you didn&rsquo;t save have success with making a function to make the plants grow, use the example one below:</p>
+<pre><code class="language-{R}" data-lang="{R}">grow_plants &lt;- function(df, dog, growth_amount, sd){
+
+  growth_heights = rnorm(n = 3, mean = growth_amount * dog, sd = sd)
+
+  new_df_values &lt;- data.frame(
+    day = rep(dog, 3),
+    height = growth_heights,
+    plant.id = LETTERS[1:3]
+  )
+
+  output_df &lt;- rbind(df, new_df_values)
+
+  return(output_df)
+}
+</code></pre>
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
