@@ -34,6 +34,8 @@ DNase %>%
 
 And then below here.
 
+There is some more text, to test `re-rendering`.
+
 ### There is going to be a protein!
 ```{r}
 r3dmol::m_glimpse("1bna", outline = FALSE)

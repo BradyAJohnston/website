@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Brady Johnston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Here is Another Post</title>
+      <link>/2021/09/28/here-is-another-post/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/09/28/here-is-another-post/</guid>
+      <description>Distill is a publication format for scientific and technical writing, native to the web.
+Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.
+I’m going to create some code. Some code will be displayed below.
+library(biochemr) DNase %&amp;gt;% b_enzyme_rate(conc, density, Run) %&amp;gt;% b_plot(colour = Run) + ggplot2::guides(colour = &amp;quot;none&amp;quot;) + ggplot2::theme(aspect.ratio = 1) And then below here.
+There is going to be a protein!</description>
+    </item>
+    
     <item>
       <title>My Tweets</title>
       <link>/2021/07/15/my-tweets/</link>
