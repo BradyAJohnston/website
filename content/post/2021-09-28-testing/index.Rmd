@@ -1,0 +1,47 @@
+---
+title: "Here is Another Post"
+description: |
+  A new article created with distill, and edited in Rmarkdown.
+author:
+  - name: Brady Johnston 
+    url: twitter.com/bradyajohnston
+    affiliation: The University of Western Australia
+    affiliation_url: https://uwa.edu.au
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web. 
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+
+## I'm going to create some code.
+Some code will be displayed below.
+
+```{r, message=FALSE, error=FALSE, warning=FALSE, echo = TRUE, fig.height=6}
+library(biochemr)
+
+DNase %>% 
+  b_enzyme_rate(conc, density, Run) %>% 
+  b_plot(colour = Run) + 
+  ggplot2::guides(colour = "none") +
+  ggplot2::theme(aspect.ratio = 1)
+```
+
+And then below here.
+
+### There is going to be a protein!
+```{r}
+r3dmol::m_glimpse("1bna", outline = FALSE)
+```
+
+Just tricked you. It was __DNA__ the _whole time_.
+
+
+
+
+
