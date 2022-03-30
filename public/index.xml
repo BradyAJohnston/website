@@ -17,7 +17,7 @@
 Learn more about using Distill for R Markdown at https://rstudio.github.io/distill.
 I’m going to create some code. Some code will be displayed below.
 library(biochemr) DNase %&amp;gt;% b_enzyme_rate(conc, density, Run) %&amp;gt;% b_plot(colour = Run) + ggplot2::guides(colour = &amp;quot;none&amp;quot;) + ggplot2::theme(aspect.ratio = 1) And then below here.
-There is going to be a protein!</description>
+There is some more text, to test re-rendering.</description>
     </item>
     
     <item>
@@ -35,10 +35,9 @@ There is going to be a protein!</description>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/2021/05/01/brrr/</guid>
-      <description>Some code goes here for (i in 1:10) print(&amp;quot;Hello world!&amp;quot;) end   Protein Motor Goes Brrrr   Some additional text here
-to clash with
-# That&amp;#39;s a real shame. print(&amp;quot;Sad!&amp;quot;) ## [1] &amp;quot;Sad!&amp;quot; Can I reference the plot 1 which is right below?
-library(ggplot2) p &amp;lt;- ggplot(mtcars, aes(mpg, cyl, colour = as.factor(cyl))) + geom_point() + theme_classic() + labs(title = &amp;quot;A Simple plot&amp;quot;, x = &amp;quot;Miles Per Gallon&amp;quot;, y = &amp;quot;Number of Cylinders&amp;quot;) p  Figure 1: Wow, just look at that plot!</description>
+      <description>Some code goes here for (i in 1:10) print(&amp;quot;Hello world!&amp;quot;) end   Protein Motor Goes Brrrr   What about if I embed it as a video?
+ # That&amp;#39;s a real shame. print(&amp;quot;Sad!&amp;quot;) ## [1] &amp;quot;Sad!&amp;quot; Can I reference the plot 1 which is right below?
+library(ggplot2) p &amp;lt;- ggplot(mtcars, aes(mpg, wt, colour = as.factor(cyl))) + geom_point() + theme_classic() + labs(title = &amp;quot;A Simple plot&amp;quot;, x = &amp;quot;Miles Per Gallon&amp;quot;, y = &amp;quot;Number of Cylinders&amp;quot;) p  Figure 1: Wow, just look at that plot!</description>
     </item>
     
     <item>
